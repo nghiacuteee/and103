@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "612937802489",
+    "project_id": "and103-fdd4e",
+    "storage_bucket": "and103-fdd4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612937802489:android:ff6c73056bf3a63a50f828",
+        "android_client_info": {
+          "package_name": "fpoly.nghianmph38531.baitap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWg9jELhVNvN6OLwAAlqBYTkBFjYpFt9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
