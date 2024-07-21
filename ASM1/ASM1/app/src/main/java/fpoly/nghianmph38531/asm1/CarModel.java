@@ -4,6 +4,10 @@ public class CarModel {
 
     private String _id;
     private String ten;
+
+    public CarModel() {
+    }
+
     private int namSX;
     private String hang;
     private double gia;

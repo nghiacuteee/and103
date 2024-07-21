@@ -117,7 +117,7 @@ app.get('/', async (req, res) => {
     }
 });
 
-app.post('/add_xe', async (req, res) => {
+app.post('/api/add_xe', async (req, res) => {
     try {
         await mongoose.connect(COMMON.uri);
         let car = req.body;
@@ -125,14 +125,14 @@ app.post('/add_xe', async (req, res) => {
         let kq = await carModel.create(car);
         console.log(kq);
         let cars = await carModel.find();
-        res.send(cars);
+        res.status(200).send(cars); // Trả về dữ liệu thành công
     } catch (error) {
         console.error(error);
-        res.status(500).send('Error adding car');
+        res.status(500).send('Error adding car'); // Trả về lỗi
     }
 });
 
-app.delete('/xoa/:id', async (req, res) => {
+app.delete('/api/xoa/:id', async (req, res) => {
     try {
         await mongoose.connect(COMMON.uri);
         let id = req.params.id;
@@ -145,7 +145,7 @@ app.delete('/xoa/:id', async (req, res) => {
     }
 });
 
-app.put('/update/:id', async (req, res) => {
+app.put('/api/update/:id', async (req, res) => {
     try {
         await mongoose.connect(COMMON.uri);
         let id = req.params.id;
@@ -153,9 +153,9 @@ app.put('/update/:id', async (req, res) => {
         console.log(updateData);
         await carModel.updateOne({ _id: id }, updateData);
         let xehois = await carModel.find({});
-        res.send(xehois);
+        res.status(200).send(xehois); // Trả về dữ liệu thành công
     } catch (error) {
         console.error(error);
-        res.status(500).send('Error updating car');
+        res.status(500).send('Error updating car'); // Trả về lỗi
     }
 });

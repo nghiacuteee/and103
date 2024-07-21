@@ -1,50 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp">
+    android:padding="10dp"
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:text="Quản lý Xe" />
-
-    <EditText
-        android:id="@+id/edtTen"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Tên xe" />
-
-    <EditText
-        android:id="@+id/edtNamSX"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Năm SX" />
-
-    <EditText
-        android:id="@+id/edtHang"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Hãng" />
-
-    <EditText
-        android:id="@+id/edtGia"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Giá" />
-
-    <Button
-        android:id="@+id/btnAdd"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Thêm" />
+        android:text="Quan ly Xe" />
 
     <ListView
         android:id="@+id/listviewMain"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Add Car"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"/>
 
 </LinearLayout>

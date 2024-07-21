@@ -5,7 +5,7 @@ const router = express.Router();
 module.exports = router;
 
 router.get('/', (req, res) => {
-    res.send('vao api mobile');
+    res.send('vao api mobile'); 
 })
 
 const mongoose = require('mongoose');

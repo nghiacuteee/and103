@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/etNamSX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nam SX"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etHang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hang" />
+
+    <EditText
+        android:id="@+id/etGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gia"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
