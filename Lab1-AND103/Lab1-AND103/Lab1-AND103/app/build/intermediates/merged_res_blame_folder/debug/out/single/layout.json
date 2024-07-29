@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/activity_main.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/item_user.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/item_user.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/messagerow.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/messagerow.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/activity_login.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_login.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/activity_login_otp.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_login_otp.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/activity_choice_login.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_choice_login.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/activity_forgot_pass.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_forgot_pass.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/activity_chat.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/activity_home.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_home.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-mergeDebugResources-42:/layout/activity_signup.xml",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_signup.xml"
+    }
+]

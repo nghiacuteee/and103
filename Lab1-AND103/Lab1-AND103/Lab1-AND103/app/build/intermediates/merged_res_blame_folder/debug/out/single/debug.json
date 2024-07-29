@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_main.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_custtomedit.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/custtomedit.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/xml_backup_rules.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_send.png.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/send.png"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_activity_signup.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_activity_choice_login.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_choice_login.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_item_user.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/item_user.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_messagerow.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/messagerow.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_activity_login_otp.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_login_otp.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_loading.png.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/loading.png"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/xml_data_extraction_rules.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_message_right.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/message_right.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_activity_home.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_home.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_activity_chat.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_message_left.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/message_left.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_activity_login.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_login.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_email.png.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/email.png"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_image.png.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/image.png"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/layout_activity_forgot_pass.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/layout/activity_forgot_pass.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/drawable_custtombutton.xml.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/drawable/custtombutton.xml"
+    },
+    {
+        "merged": "fpoly.ph38531.lab01.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "fpoly.ph38531.lab01.app-main-45:/mipmap-hdpi/ic_launcher_round.webp"
+    }
+]
