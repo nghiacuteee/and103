@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.UserScreen"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/avatar"
+        android:src="@drawable/useravatar">
+    </ImageView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtNewUsername"
+        android:textColor="#A7A7A7"
+        android:background="@drawable/edittextbackground"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:hint="Họ tên">
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/txtNewEmail"
+        android:hint="Email"
+        android:textColor="#A7A7A7"
+        android:background="@drawable/edittextbackground"
+        android:layout_margin="10dp"
+        android:paddingStart="10dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingEnd="10dp">
+    </EditText>
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/txtNewPassword"-->
+<!--        android:textColor="#A7A7A7"-->
+<!--        android:background="@drawable/edittextbackground"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:paddingStart="10dp"-->
+<!--        android:paddingEnd="10dp"-->
+<!--        android:hint="Mật khẩu">-->
+<!--    </EditText>-->
+
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:id="@+id/txtNewRetypePassword"-->
+<!--        android:hint="Nhập lại mật khẩu"-->
+<!--        android:textColor="#A7A7A7"-->
+<!--        android:background="@drawable/edittextbackground"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:paddingStart="10dp"-->
+<!--        android:paddingEnd="10dp">-->
+<!--    </EditText>-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đổi thông tin"
+        android:layout_margin="10dp"
+        android:id="@+id/btnUpdateInfo"
+        android:background="@drawable/buttonbackground"
+        android:textColor="@color/white">
+    </Button>
+
+</LinearLayout>

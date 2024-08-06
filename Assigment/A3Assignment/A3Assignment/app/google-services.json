@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268127747149",
+    "project_id": "a3-asm",
+    "storage_bucket": "a3-asm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268127747149:android:3c629354a43a52b2717004",
+        "android_client_info": {
+          "package_name": "com.hoangdus.a3_asm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNvrCmQozMXAUPzLpcPW58KKb7SyzvPM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
