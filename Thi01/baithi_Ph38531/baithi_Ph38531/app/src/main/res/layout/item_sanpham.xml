@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cccccc"
+    android:padding="16dp"
+
+    android:layout_margin="10dp">
+
+    <!-- Hình ảnh sản phẩm -->
+    <ImageView
+        android:id="@+id/img_sanpham"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_sample_image"
+        android:scaleType="centerCrop"
+    />
+
+
+    <!-- Tên sản phẩm -->
+    <TextView
+        android:id="@+id/txt_ten_sanpham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_sanpham"
+        android:layout_alignTop="@id/img_sanpham"
+        android:text="Tên đt"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="8dp"/>
+
+    <!-- Mô tả sản phẩm -->
+    <TextView
+        android:id="@+id/txt_mo_ta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_sanpham"
+        android:layout_below="@id/txt_ten_sanpham"
+        android:text="Mô Tả"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingBottom="4dp"/>
+
+    <!-- Trạng thái sản phẩm -->
+    <TextView
+        android:id="@+id/txt_trang_thai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_sanpham"
+        android:layout_below="@id/txt_mo_ta"
+        android:text="Trạng Thái"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"/>
+
+    <!-- Nút Delete -->
+    <ImageView
+        android:id="@+id/btn_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/baseline_delete_24"
+        android:layout_marginStart="8dp"
+        android:contentDescription="Delete"/>
+
+    <!-- Nút Edit -->
+    <ImageView
+        android:id="@+id/btn_edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/btn_delete"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/baseline_edit_24"
+        android:layout_marginStart="8dp"
+        android:contentDescription="Edit"/>
+</RelativeLayout>

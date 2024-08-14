@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cccccc"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/et_ten_xe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên đt" />
+
+    <EditText
+        android:id="@+id/et_mau_sac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày nhap" />
+
+    <EditText
+        android:id="@+id/et_gia_ban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Trang thai"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_mo_ta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả" />
+
+    <EditText
+        android:id="@+id/et_hinh_anh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hình ảnh" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:backgroundTint="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Submit" />
+
+</LinearLayout>
